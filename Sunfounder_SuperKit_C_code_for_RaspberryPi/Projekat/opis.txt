@@ -1,0 +1,19 @@
+#GPIO PIN
+
+ 
+# NAME WPI GPIO
+
+#define LCD_RS  29           21       //Register select pin
+#define LCD_E   25           26       //Enable Pin
+#define LCD_D0  24//29       19        //Data pin D0
+#define LCD_D1  23//28       13        //Data pin D1
+#define LCD_D2  22//27       6        //Data pin D2
+#define LCD_D3  21//26       5        //Data pin D3
+#define LCD_D4  0//23               //Data pin D4
+#define LCD_D5  0//22               //Data pin D5
+#define LCD_D6  0//21               //Data pin D6
+#define LCD_D7  0//14               //Data pin D7
+
+#define   SDI   28         20        //serial data input
+#define   RCLK  27         16        //memory clock input(STCP)
+#define   SRCLK 26         12         //shift register clock input(SHCP)
